@@ -1,0 +1,16 @@
+   
+infile: 'test-users.csv'
+downgradable_inactivity_days: 60
+purge_never_active_accounts: false
+purge_pending_accounts: false
+downgrade_never_active_accounts: true
+downgrade_pending_accounts: true
+force_purge_user_list:
+  - "Kailash.Raythour@acme.com"
+force_upgrade_user_list:
+  - "Mike.O'Rourke@acme.com"
+force_downgrade_user_list:
+  - "Eli.Weg@acme.com"
+force_upgrade_all_users: false
+force_downgrade_all_users: false
+helix_activity_file: null
